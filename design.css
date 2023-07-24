@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: #4a55a2;
+}
+.container
+{
+    margin: auto;
+    display:block;
+    width: 50%;
+}
+.btn{
+     display: inline-block;
+     margin: 20px;
+     width: 200px;
+     height:200px;
+     border:2px solid black;
+     border-radius: 30%;
+     cursor: pointer;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color:yellow;
+}
+#blue{
+    background-color: blue;
+}
+h1{
+     font-family: 'Roboto Slab', serif;
+     font-size: 3rem;
+     margin: 3%;
+     color: #faebaa;
+     text-shadow: 1px 1px black;
+     white-space: px;
+
+}
+.pressed {
+ box-shadow: 0 0 20px white;
+ background-color: grey;
+}
+.game-over {
+background-color: red;
+opacity: 0.8;
+}
